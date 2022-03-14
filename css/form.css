@@ -1,0 +1,29 @@
+form.regForm {
+    display: table;
+}
+
+div.regForm {
+    display: table-row;
+}
+
+label, input, select {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+textarea {
+    display: inline-table;
+}
+
+.submit {
+    margin-top: 10px;
+    margin-left: 100%;
+}
+
+.cell {
+    display: inline-flex;
+}
